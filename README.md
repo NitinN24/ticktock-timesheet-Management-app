@@ -75,3 +75,27 @@ NEXTAUTH_URL=http://localhost:3000
 Email: john@tentwenty.com
 Password: password123
 ```
+
+## ⏱️ Time Spent on TickTock Timesheet App
+
+This document outlines the breakdown of time spent on each part of the technical assessment project. The goal was to simulate a real-world app while balancing code quality, responsiveness, and maintainability.
+
+| Phase                             | Description                                                            | Time Spent |
+|----------------------------------|------------------------------------------------------------------------|------------|
+| 🏁 Project Setup                  | Initialized Next.js, TailwindCSS, TypeScript, file structure           | 1 hour     |
+| 🔐 Auth (Login Page)             | Implemented dummy login UI + NextAuth custom provider setup            | 1 hour     |
+| 🧱 API Layer                     | Created mock data + internal API routes for tasks and timesheets       | 1.5 hours  |
+| 📊 Dashboard UI                  | Built timesheet table with week, date, status, and actions             | 2 hours    |
+| ➕ Modal (Add/Edit Task)         | Created form modal, dynamic inputs, controlled state, validations      | 1.5 hours  |
+| 💅 UI Styling & Responsiveness   | Tailwind layout, design matching to Figma, responsive adjustments       | 1 hour     |
+| 🐞 Debugging & Polishing         | Fixed logic bugs, cleaned code, organized folders                      | 1 hour     |
+| 🚀 GitHub & Vercel Deployment    | Connected repo, pushed final build, deployed via Vercel                | 0.5 hour   |
+
+---
+
+**🧮 Total Time Spent: ≈ 9.5 hours**
+
+---
+
+All time estimates are rounded and logged during focused work sessions to stay within a reasonable real-world sprint simulation.
+
