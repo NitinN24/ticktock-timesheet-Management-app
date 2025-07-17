@@ -5,10 +5,10 @@ import TimesheetDetails from "../../../components/TimesheetDetails";
 import Navbar from "../../../components/Navbar";
 import { useSession } from "next-auth/react";
 
-// Types
+// Types - Updated to match TimesheetDetails expectations
 interface Task {
   id: string;
-  title: string;
+  description: string; // Changed from 'title' to 'description'
   project: string;
   hours: number;
 }
@@ -49,7 +49,7 @@ export default function TimesheetWeekPage() {
 
           grouped[date].push({
             id: entry.id,
-            title: entry.description,
+            description: entry.description, // Changed from 'title' to 'description'
             project: entry.project,
             hours: entry.hours,
           });
